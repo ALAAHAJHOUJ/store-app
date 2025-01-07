@@ -1,0 +1,139 @@
+.App
+
+{
+width:100%;
+height:100%;
+}
+
+.recherche
+{
+width:100%;
+height: 100px;
+background-color: white;
+position: relative;
+}
+
+
+#fils1{
+font-size: 30px;
+font-weight:500;
+font-family: sans-serif;
+}
+
+form{
+    margin-top: 10px;
+    display: flex;
+    column-gap: 17px;
+}
+
+#reset
+{
+background-color: rgb(137, 137, 137);
+color: white;
+width:60px;
+height: 30px;
+font-weight: 500;
+border-radius: 6px;
+border: none;
+cursor: pointer;
+}
+
+#submit{
+background-color: black;
+color: white;
+width:60px;
+height: 30px;
+border-radius: 6px;
+cursor: pointer;
+}
+
+#fils2{
+height: 30px;
+display: flex;
+align-items:center;
+column-gap: 5px;
+}
+
+#fils3{
+    height:90%;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+#ligne1{
+width:100%;
+position: absolute;
+right: 0px;
+}
+
+.navbar{
+    width:100%;
+    height: 50px;
+    background-color: gray;
+    display: flex;
+    border-radius: 10px;
+
+}
+    
+.filsnav{
+box-sizing: border-box;
+width:calc(100% /3);
+color:white;
+font-family: sans-serif;
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+}
+
+.filsnav:hover{
+background-color: rgb(214, 212, 212);
+border-radius: 10px;
+}
+.cat{
+width:100%;
+position: relative;
+}
+
+#cate{
+font-size: 20px;
+font-weight: 600;
+font-family: sans-serif;
+}
+
+#ligne2{
+margin-top: 20px;
+width: 100%;
+position: absolute;
+right: 0px;
+}
+
+
+table{
+margin-top: 20px;
+width:100%;
+border: none;
+border-spacing: 0;
+}
+
+th{
+border: none;
+border-bottom: 1px solid rgb(128, 114, 114);
+font-weight: bold;
+font-family: sans-serif;
+}
+
+td{
+border: none;
+border-bottom: 1px solid rgb(119, 108, 108);
+}
+
+img{
+width: 150px;
+height: 150px;
+}
+
+
+#titre{
+    text-align: start;
+}
